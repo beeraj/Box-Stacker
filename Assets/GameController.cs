@@ -280,6 +280,14 @@ public class GameController : MonoBehaviour
 		GameOver = true;
 	}
 
+
+	// Method Set Status to Game Over
+	public void QuitGame()
+	{
+		// Quit Game
+		Application.Quit();
+	}
+
 	// Method to Restart Game
 	public void RestartGame()
 	{
